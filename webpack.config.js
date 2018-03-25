@@ -25,9 +25,8 @@ module.exports = {
     },
     plugins:[
         new HtmlWebpackPlugin({
-            title: 'Music Info App',
             filename: '../index.html',
             template: 'templates/index-template.html'
-        }),
+        })
     ]
 };
